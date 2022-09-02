@@ -50,7 +50,7 @@ def oldking(image):
 
     #plt.figure('经过维纳滤波后的图像')
     plt.subplot(224)
-    plt.title('经过中值滤波后的图像')
+    plt.title('经过维纳滤波后的图像')
     plt.imshow(lenaWiener, cmap='gray')
     plt.show()
 
@@ -59,7 +59,7 @@ def oldking(image):
 
     #plt.figure('经过中值滤波后的图像')
     plt.subplot(223)
-    plt.title('经过维纳滤波后的图像')
+    plt.title('经过中值滤波后的图像')
     plt.imshow(edges1, cmap='gray')
     plt.show()
 
